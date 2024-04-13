@@ -1,0 +1,19 @@
+|Contador
+modo => display.OUTPUTSELECT
+modo => display.OUTPUTSELECT
+modo => display.OUTPUTSELECT
+modo => display.OUTPUTSELECT
+modo => display.OUTPUTSELECT
+modo => display.OUTPUTSELECT
+modo => display.OUTPUTSELECT
+clock => estado~1.DATAIN
+rst => estado~3.DATAIN
+display[0] << display.DB_MAX_OUTPUT_PORT_TYPE
+display[1] << display.DB_MAX_OUTPUT_PORT_TYPE
+display[2] << display.DB_MAX_OUTPUT_PORT_TYPE
+display[3] << display.DB_MAX_OUTPUT_PORT_TYPE
+display[4] << display.DB_MAX_OUTPUT_PORT_TYPE
+display[5] << display.DB_MAX_OUTPUT_PORT_TYPE
+display[6] << display.DB_MAX_OUTPUT_PORT_TYPE
+
+
